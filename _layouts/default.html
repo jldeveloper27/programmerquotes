@@ -35,7 +35,8 @@
        <div class="posts-wrapper">
          {% for quote in site.quotes %}
           <div class="post-wrapper">
-            <h3>{{ quote.quote }} <i> - By {{quote.author}}</i></h3>
+            <blockquote><p>{{ quote.quote }}</p></blockquote>
+             <p><i>By {{quote.author}}</i></p>
           </div>
         {% endfor %}
         </div>
