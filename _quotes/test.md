@@ -1,5 +1,0 @@
----
-date: 2015-02-21 15:40:06
-quote: Excerpt goes here
-author: Jonathan Dominguez
----
