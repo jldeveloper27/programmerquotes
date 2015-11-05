@@ -31,10 +31,11 @@
        <div class="content">
          {{ content }}
        </div>
+       <h1>Quotes:</h1>
        <div class="posts-wrapper">
-         {% for post in site.posts %}
+         {% for quote in site.quotes %}
           <div class="post-wrapper">
-            <h3>{{ post.quote }} <i> - By {{post.author}}</i></h3>
+            <h3>{{ quote.quote }} <i> - By {{quote.author}}</i></h3>
           </div>
         {% endfor %}
         </div>

@@ -1,0 +1,7 @@
+# Site title and subtitle. This is used in _includes/header.html
+title: 'Programmer Quotes'
+subtitle: 'Shit programmers say'
+
+collections:
+  quotesL:
+    output: false
