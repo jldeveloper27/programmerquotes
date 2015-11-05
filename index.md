@@ -3,4 +3,5 @@ layout: default
 title: "Programmer Quotes"
 ---
 
-#And So it Begins
+#Programmer Quotes
+Below is are the quotes said by many a programmer
