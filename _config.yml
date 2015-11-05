@@ -4,4 +4,4 @@ subtitle: 'Shit programmers say'
 
 collections:
   quotes:
-    output: false
+    output: true
