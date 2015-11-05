@@ -35,8 +35,8 @@
       <div class="posts-wrapper">
         {% for post in site.posts %}
          <div class="post-wrapper">
-           
-           <p>{{ post.title }}</p>
+           <h3>{{ post.excerpt }}</h3>
+           <p>{{post.title}}</p>
          </div>
        {% endfor %}
        </div>
