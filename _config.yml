@@ -3,5 +3,5 @@ title: 'Programmer Quotes'
 subtitle: 'Shit programmers say'
 
 collections:
-  quotesL:
+  quotes:
     output: false
