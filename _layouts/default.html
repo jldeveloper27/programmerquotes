@@ -31,9 +31,8 @@
        <div class="content">
          {{ content }}
        </div>
-       <h1>Quotes:</h1>
        <div class="posts-wrapper">
-         {% for quote in site.quotes %}
+         {% for quote in site.quotes | sort: 'date' %}
           <div class="post-wrapper">
             <blockquote><p>{{ quote.quote }}</p></blockquote>
              <p><i>By {{quote.author}}</i></p>
