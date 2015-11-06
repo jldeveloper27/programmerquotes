@@ -32,8 +32,8 @@
          {{ content }}
        </div>
        <div class="posts-wrapper">
-         First
-         {% for quote in site.quotes | sort: 'date', 'first' %}
+         Reverse
+         {% for quote in site.quotes reversed %}
           <div class="post-wrapper">
             <blockquote><p>{{ quote.quote }}</p></blockquote>
              <p><i>By {{quote.author}}</i></p>
